@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loan - Crown Bank</title>
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
+    <link rel="stylesheet" href="/CSS/homeloan.css">
+    <script src="https://kit.fontawesome.com/022e694e87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <a href="/Php/index.php">
+                <img src="../images/logo1.png" class="logo">
+                </a>
+                <div class="main">
+                    <div class="dropdown">
+                        <button>Accounts</button>
+                        <div class="sub">
+                        <a href="/php/home1.php">Account Balance</a>
+                        <a href="/php/summary1.php">Transactions</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button>Loans</button>
+                        <div class="sub">
+                        <a href="/php/personal.php">Personal Loan</a>
+                        <a href="#">Home Loan</a>
+                        <a href="/php/carloan.php">Car Loan</a>
+                        <a href="/php/education.php">Education Loan</a>
+                        <a href="/php/gold.php">Gold Loan</a>
+                        <a href="/php/loanform.php">Loan Application form</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button>Bill Payment</button>
+                        <div class="sub">
+                        <a href="/php/billfirst.php">Payments</a>
+                        <a href="/php/creditcard.php">Credit card bill payment</a>
+                        <a href="/php/billpayment.php">Bill payments and recharge</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button>Transfer</button>
+                        <div class="sub">
+                        <a href="/php/fundtransfer.php">Fund Transfer</a>
+                        </div>
+                    </div>
+                    <div class="logout">
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
+                    </div>
+                </div>           
+            </div>
+        </header>
+        <div class="hero">
+            <div class="hero-img">
+                <img src="../images/home.jpg">
+            </div>
+            <h2 class="hero-text">Avail Home Loan at Attractive Interest Rates</h2>
+        </div>
+        <div class="content-list">
+            <ul>
+                <a href="#overview">
+                    <li class="list">Overview</li>
+                </a>
+                <a href="#eligi">
+                    <li class="list">Eligibility</li>
+                </a>
+                <!-- <a href="">
+                    <li class="list">Fees & Charges</li>
+                </a> -->
+                <a href="#faq">
+                    <li class="list">FAQs</li>
+                </a>
+            </ul>
+        </div>
+        <div class="savings" id="overview">
+            <div class="current">
+                <h1 class="stitle">Home loans</h1>
+                <h3 class="subtitle"></h3>
+                <p class="save-content">
+                    Getting a home is now easier than ever. 
+                    With Crown Bank home loans,
+                     we give you the best interest rates on housing finance
+                      and a wide selection of property options, so that you can live your best life.
+                       Apply for home loan online with us and avail higher loan eligibility
+                        with longest tenure up to 30 years.
+
+                </p>
+            </div>
+        </div>
+        <div class="benefit">
+            <h2>Benefits</h2>
+            <div class="benefits">
+                <div class="one">
+                    <div class="image">
+                        <img src="../images/percentage.jpg" width="80px" height="80px" style="margin-left: 20px;">
+                    </div>
+                    <p class="ben">Attractive home loan interest rates</p>
+                </div>
+                <div class="one">
+                    <div class="image">
+                        <img src="../images/coinwithhand.png" width="80px" height="80px">
+                    </div>
+                    <p class="ben">Loan amount up to INR 2cr</p>
+                </div>
+                <div class="one">
+                    <div class="image">
+                        <img src="../images/percentage.jpg" width="80px" height="80px">
+                    </div>
+                    <p class="ben">Available top up the same rates as balance transfer</p>
+                </div>
+                
+                <div class="one">
+                    <div class="image">
+                        <img src="../images/coinwithhand.png" width="80px" height="80px">
+                    </div>
+                    <p class="ben">loan tenure up to 30years</p>
+                </div>
+                
+                
+                
+                </div>
+            </div>
+        </div>
+        <div class="procedure" id="eligi">
+            <div class="eligibile">
+                <h1 class="etitle">Eligibility</h1>
+                <h2 class="ehead">Who Can Apply?</h2>
+                <h2 class="ehead">Want to apply for home loan online?
+                     Check home loan eligibility mentioned below:<br>
+
+
+                    For Self-Employed Individuals:</h2>
+                <ul>
+                    <li class="item">Resident Indians only</li>
+                    <li class="item"> Aged between 23-70 years </li>
+                    <li class="item"> Minimum 4 years of business continuity </li>
+                    <li class="item"> Must earn minimum ₹1.5 lakh per annum </li>
+                    <li class="item"> Tenure duration 12 months - 300 months
+                    </li>
+                </ul>
+                <h2 class="etitle">For Salaries Individuals:</h2>
+                <ul>
+                    <li class="item">Resident & Non-Resident Indians</li>
+                    <li class="item">Aged between 21-60 years</li>
+                    <li class="item">Minimum 3 years of experience</li>
+                    <li class="item">Must earn minimum ₹1 lakh per annum</li>
+                    <li class="item">Tenure duration 12 months 360 months</li>
+                    
+                </ul>
+            </div>
+            <div class="eimg">
+                <img src="../images/fullhome.jpg" width="500px" height="100%">
+            </div>
+        </div>
+        <div class="faq" id="faq">
+            <h2 class="ftitle">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="faqs">
+                <div class="question">
+                    What is a home loan and what can I do with it?<i class="fa fa-plus"></i>
+                </div>
+                <div class="answer">
+                    <div class="ans">
+                        A home loan, or a house loan, allows you to purchase
+                         the home of your dreams without having to pay for it upfront.
+                         Depending on your home loan eligibility, you can secure a
+                          loan that is as high as 90% of the value of the property
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="faqs">
+                <div class="question">How long does it take to get a house loan?
+                  <i class="fa fa-plus"></i>
+                </div>
+                <div class="answer">
+                    <div class="ans">
+                     Crown Bank Home Finance has made it easy for you
+                      to apply for home loan online. Please 
+                    submit your details online through our website,
+                     and we will inform you of your home loan eligibility by calling you.
+                    </div>
+                </div>
+            </div>
+            <div class="faqs">
+                <div class="question">
+                    Will I need to make a down payment on my house loan?<i class="fa fa-plus"></i>
+                </div>
+                <div class="answer">
+                    <div class="ans">
+                        Yes, you will have to make a down payment.
+                         Crown Bank finances up to 90% of the cost of your home. This makes
+                         purchasing your dream home extremely easy, 
+                         as you do not need to finance the bulk cost of your future home upfront.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <div class="foot-mid">
+                    <div class="social-links">
+                        <p class="soc-link">CONNECT WITH US ON</p>
+                        <ul>
+                            <li>
+                                <a class="pic-link" href="https://www.facebook.com/">
+                                    <img src="../images/facebook.png" width="34">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="pic-link" href="https://twitter.com/">
+                                    <img src="../images/twitter.png" width="34">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="pic-link" href="https://www.youtube.com/">
+                                    <img src="../images/youtube.png" width="34">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="pic-link" href="https://www.instagram.com/">
+                                    <img src="../images/instagram.png" width="34">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/php/disclaimer.php">
+                                    <p class="link">Disclaimer</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/php/privacy.php">
+                                    <p class="link">Privacy Policy</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/php/terms&conditions.php">
+                                    <p class="link">Terms & Conditions</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot-right">
+                    <P>Always use the customer care numbers displayed on Bank's official website.
+                        Do not access unknown website links.
+                    </P>
+                </div>
+                <div class="copyright">
+                    <p class="copy">CopyRights &copy 2023 CrownBank <span class="copy1">|</span> <span>Right Bank Right Now</span> <span class="copy1">|</span>  All Rights Reserved </p>
+                </div>
+          </footer>
+    </div>
+    <script src="/JS/faq.js"></script>
+    <script src="/JS/logout.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
